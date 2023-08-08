@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(28, 187, 47);
+  background-position: center;
+  background-size: cover;
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+}
+div{
+  margin-top: 50px;
+}
+h1{
+  color: gold;
+}
+.btn{
+  margin-top: 20px;
+  padding: 10px 20px ;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+.restart{
+  background-color: red;
+}
+h4{
+  margin-top: 20px;
+}
+
+
+
+
+
+/* sorting */
+
+.sort{
+  text-align: center;
+  margin-top: 0;
+}
+div.fruit{
+width: 40%;
+height: 50px;
+display: inline-block;
+
+}
+div.apple{
+  margin-top: 20px;
+
+  background-color: red;
+}
+.orange{
+  margin-top: 10px;
+
+  background-color: orange;
+}

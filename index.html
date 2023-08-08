@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <audio id="myAudio">
+    <source src="You Win (Street Fighter) - Sound Effect.mp3" type="audio/ogg">
+  </audio>
+  <audio src="You Lose Sound Effect.mp3" id="lost"></audio>
+  <audio src="Game Start Round Gong Sound Effects.mp3" id="start"></audio>
+  <div>
+  <h1>Black Jack</h1>
+  <p id="message-el">Want to play a round ?</p>
+  <p id="cards">Cards:</p>
+  <p id="sum">Sum:</p>
+  <button class="btn" id='start-btn' onclick="start()">Start Game</button>
+  <button class="btn" id="new-card-btn" onclick="newCard()">New Card</button>
+  <br>
+  <button class="btn restart" onclick="restart()">New Game</button>
+  <h4 id="money">Bal:&#8377;1,000</h4>
+</div>
+
+
+</body>
+</html>
